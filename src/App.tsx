@@ -5,7 +5,7 @@ import css from './App.module.css';
 import 'modern-normalize/modern-normalize.css';
 
 import CafeInfo from './components/CafeInfo/CafeInfo';
-import VoteOptions from './components/VoteOptions/VoteOptions';
+import VoteOptions from './components/fff/VoteOptions';
 import VoteStats from './components/VoteStats/VoteStats';
 import Notification from './components/Notification/Notification';
 
