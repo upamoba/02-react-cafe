@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './VoteOptions.module.css';
-import type { VoteType } from '../../Types/Votes';
+import type { VoteType } from '../../Types/votes';
 
 export interface VoteOptionsProps {
   onVote: (type: VoteType) => void;
