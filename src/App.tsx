@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import css from './App.module.css';
 import 'modern-normalize/modern-normalize.css';
 
-import CafeInfo from './components/cafeinfo/CafeInfo';
-import VoteOptions from './components/voteoptions/VoteOPtions';
-import VoteStats from './components/votestats/VoteStats';
+import CafeInfo from './components/CafeInfo/CafeInfo';
+import VoteOptions from './components/VoteOptions/VoteOPtions';
+import VoteStats from './components/VoteStats/VoteStats';
 import Notification from './components/Notification/Notification';
 
 import type { Votes, VoteType } from './types/votes';
