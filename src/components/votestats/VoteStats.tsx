@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './VoteStats.module.css';
-import type { Votes } from '../../Types/votes';
+import type { Votes } from '../../types/votes';
 
 export interface VoteStatsProps {
   votes: Votes;

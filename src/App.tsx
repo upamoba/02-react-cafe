@@ -9,7 +9,7 @@ import VoteOptions from './components/VoteOptions/VoteOptions';
 import VoteStats from './components/VoteStats/VoteStats';
 import Notification from './components/Notification/Notification';
 
-import type { Votes, VoteType } from './Types/votes';
+import type { Votes, VoteType } from './types/votes';
 
 const App: React.FC = () => {
   const [votes, setVotes] = useState<Votes>({ good: 0, neutral: 0, bad: 0 });
